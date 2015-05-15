@@ -10,7 +10,7 @@
     $message = @trim(stripslashes($_POST['message']));
     $telefon = @trim(stripslashes($_POST['telefon']));
 
-    $email_from = 'admin@cambiodeidea.com';
+    $email_from = 'admin@guanyeminca.org';
     $email_to = 'manuel.pol@gmail.com';//replace with your email
 
     $body = 'Nom: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Telefon: ' . $telefon . "\n\n" . 'Missatge: ' . $message;
